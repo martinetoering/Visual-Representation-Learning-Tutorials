@@ -1,8 +1,7 @@
-#  Deep Learning Tutorials 
-# Visual representation learning 
+# Visual representation learning Tutorials
 ## Leren & Beslissen 2021
 
-This repository functions as an introduction to deep learning for UvA students Leren & Beslissen course 2021. The introduction consist of tutorial notebooks on neural networks, pytorch and several deep learning topics. 
+This repository serves as an introduction to deep learning for UvA students Leren & Beslissen course 2021 for the visual representation learning project. The repository consist of tutorial notebooks on deep learning and pytorch, autoencoders and Convolutional Neural Networks.
 
 ## Table Of Contents
 
@@ -10,44 +9,39 @@ This repository functions as an introduction to deep learning for UvA students L
 
 Under tutorials you can find
 
-Pytorch & Deep Learning tutorialss
-* [Part 1: Pytorch Deep learning](https://github.com/)
-* Tensors and Neural Networks 
-* Training and backpropagation
-* Validation and Inference
-* Loading images and Transfer learning
-* Part 2: 
-* Part 3: 
+* [Part 1: Deep Learning & Pytorch]()
+ 
+ Learn how to build neural networks in PyTorch and use pre-trained networks for state-of-the-art image classifiers.
+    * Tensors and Neural Networks 
+    * Training and backpropagation
+    * Validation and Inference
+    * Loading images and Transfer learning
+* [Part 2: ConvNets & Visualization]
+* [Part 3: Autoencoders]
 
-### Introduction to Neural Networks
-
-* [Introduction to Neural Networks](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-neural-networks): Learn how to implement gradient descent and apply it to predicting patterns in student admissions data.
-* [Introduction to PyTorch](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-to-pytorch): Learn how to build neural networks in PyTorch and use pre-trained networks for state-of-the-art image classifiers.
 
 ---
 
-# Dependencies
+## Resources 
 
-## Configure and Manage Your Environment with Anaconda
+* Consider using Google Colab.
 
-Per the Anaconda [docs](http://conda.pydata.org/docs):
+---
 
-> Conda is an open source package management system and environment management system 
-for installing multiple versions of software packages and their dependencies and 
-switching easily between them. It works on Linux, OS X and Windows, and was created 
-for Python programs but can package and distribute any software.
 
-## Overview
+## Getting Started
+
+We recommend to configure and manage an environment with Anaconda, a package and environment manager.
+
+### Overview
 Using Anaconda consists of the following:
 
 1. Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer, by selecting the latest Python version for your operating system. If you already have `conda` or `miniconda` installed, you should be able to skip this step and move on to step 2.
 2. Create and activate * a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
 
-\* Each time you wish to work on any exercises, activate your `conda` environment!
-
 ---
 
-## 1. Installation
+### 1. Installation
 
 **Download** the latest version of `miniconda` that matches your system.
 
@@ -68,7 +62,7 @@ Using Anaconda consists of the following:
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
-## 2. Create and Activate the Environment
+### 2. Create and Activate the Environment
 
 For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work. 
 
@@ -77,8 +71,6 @@ These instructions also assume you have `git` installed for working with Github 
 ```
 conda install git
 ```
-
-If you'd like to learn more about version control and using `git` from the command line, take a look at our [free course: Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123).
 
 **Now, we're ready to create our local environment!**
 
@@ -120,22 +112,9 @@ cd deep-learning-v2-pytorch
 pip install -r requirements.txt
 ```
 
-7. That's it!
 
-Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use TensorFlow and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project. 
+#### _Acknowledgement - References_
 
-Now, assuming your `deep-learning` environment is still activated, you can navigate to the main repo and start looking at the notebooks:
+_The majority of the projects come from the lab assignments of the Udacity's [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)_
 
-```
-cd
-cd deep-learning-v2-pytorch
-jupyter notebook
-```
-
-To exit the environment when you have completed your work session, simply close the terminal window.
-
-
-###### _Acknowledgement - References_
-
-* _The majority of the projects come from the lab assignments of the Udacity's [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)_
-* CS231n
+_Stanford CS231n course_
