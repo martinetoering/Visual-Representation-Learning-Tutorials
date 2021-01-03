@@ -7,24 +7,38 @@ This repository serves as an introduction to deep learning for UvA students Lere
 
 ### Tutorials
 
-Under tutorials you can find
+Under tutorials you can find notebooks on the following topics.
 
-* [Part 1: Deep Learning & Pytorch]()
- 
- Learn how to build neural networks in PyTorch and use pre-trained networks for state-of-the-art image classifiers.
+* [Part 1: Deep Learning & Pytorch](https://github.com/martinetoering/visual-representation-learning-tutorials/tree/master/tutorials/part-1-pytorch-deep-learning)
     * Tensors and Neural Networks 
     * Training and backpropagation
     * Validation and Inference
     * Loading images and Transfer learning
-* [Part 2: ConvNets & Visualization]
-* [Part 3: Autoencoders]
-
+* [Part 2: ConvNets & Visualization](https://github.com/martinetoering/visual-representation-learning-tutorials/tree/master/tutorials/part-2-convnets-and-visualization)
+    * Convolutional Neural Networks on CIFAR-10
+    * Convolutional Visualization and Filters
+* [Part 3: Autoencoders](https://github.com/martinetoering/visual-representation-learning-tutorials/tree/master/tutorials/part-3-autoencoders)
+    * Introduction to Autoencoders on MNIST: Simple Autoencoder, Convolutional Autoencoder and Denoising Autoencoder
 
 ---
 
 ## Resources 
 
-* Consider using Google Colab.
+* Consider using [Google Colab](https://colab.research.google.com/) if you need access to more computing power. To learn more, see the [Colab intro](https://colab.research.google.com/notebooks/intro.ipynb).
+
+* Additional resources on CNNs:
+    * [Stanford CS231n](http://cs231n.github.io/)
+    * [Colah's blog](https://colah.github.io/)
+    * [Intuitive explanation ConvNets](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
+    
+* Additional resources on representation learning and Autoencoders:
+    * [Autoencoder Wikipedia](https://en.wikipedia.org/wiki/Autoencoder)
+    * [Representation learning blog](https://neptune.ai/blog/understanding-representation-learning-with-autoencoder-everything-you-need-to-know-about-representation-and-feature-learning)
+
+* Additional resources on self-supervised learning (Note: might not be beginner-friendly)
+    * [Self-supervised learning simple introduction](https://medium.com/analytics-vidhya/what-is-self-supervised-learning-in-computer-vision-a-simple-introduction-def3302d883d)
+    * [Self-supervised learning blog](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html)
+
 
 ---
 
@@ -76,8 +90,7 @@ conda install git
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/udacity/deep-learning-v2-pytorch.git
-cd deep-learning-v2-pytorch
+git clone https://github.com/martinetoering/visual-representation-learning-tutorials
 ```
 
 2. Create (and activate) a new environment, named `deep-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
@@ -115,6 +128,6 @@ pip install -r requirements.txt
 
 #### _Acknowledgement - References_
 
-_The majority of the projects come from the lab assignments of the Udacity's [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)_
+* _The majority of the tutorial notebooks are from the lab assignments of the Udacity's [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)_
 
-_Stanford CS231n course_
+* _Other materials come from the Stanford CS231n course_
