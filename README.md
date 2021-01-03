@@ -95,20 +95,20 @@ conda install git
 git clone https://github.com/martinetoering/visual-representation-learning-tutorials
 ```
 
-2. Create (and activate) a new environment, named `deep-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+2. Create (and activate) a new environment, named `representation-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
-	conda create -n deep-learning python=3.6
-	source activate deep-learning
+	conda create -n representation-learning python=3.6
+	conda activate representation-learning
 	```
 	- __Windows__: 
 	```
-	conda create --name deep-learning python=3.6
-	activate deep-learning
+	conda create --name representation-learning python=3.6
+	activate representation-learning
 	```
 	
-	At this point your command line should look something like: `(deep-learning) <User>:deep-learning-v2-pytorch <user>$`. The `(deep-learning)` indicates that your environment has been activated, and you can proceed with further package installations.
+	At this point your command line should look something like: `(representation-learning) [user]`. The `(representation-learning)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
 	
@@ -132,4 +132,4 @@ pip install -r requirements.txt
 
 * _The majority of the tutorial notebooks are from the lab assignments of the Udacity's [Deep Learning Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101)_
 
-* _Other materials come from the Stanford CS231n course_
+* _Other materials come from the [Stanford CS231n course](http://cs231n.github.io/)_
