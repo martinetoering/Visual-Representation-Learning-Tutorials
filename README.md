@@ -24,6 +24,8 @@ Under tutorials you can find notebooks on the following topics.
 
 ## Resources 
 
+Here you can find some resources that might be useful to you, in addition to the references found in the project description.
+
 * Consider using [Google Colab](https://colab.research.google.com/) if you need access to more computing power. To learn more, see the [Colab intro](https://colab.research.google.com/notebooks/intro.ipynb).
 
 * Additional resources on CNNs:
